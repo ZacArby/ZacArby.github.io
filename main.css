@@ -1,0 +1,145 @@
+body {
+    background-color: dimgray;
+}
+* {
+    font-family: "Times New Roman", serif;
+    color: white;
+}
+.container {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 70px auto;
+    height: 1100px;
+    width: 1000px;
+    border-radius: 10px;
+    text-align: center;
+ }
+.header {
+    margin: -60px auto auto;
+    grid-area: header;
+    border-radius: 10px;
+    background-color: #0690EB;
+}
+.title {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.subTitle {
+    width: 500px;
+    font-size: 30px;
+    margin-top: 0;
+}
+.nav {
+    margin: auto;
+    word-spacing: 180px;
+    grid-area: nav;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav_box {
+    background: #0690EB;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.body {
+    margin: auto;
+    grid-area: body;
+    background-color: #0690EB;
+    width: 50%;
+    text-align: center;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.bodyHeader {
+    text-align: center;
+    font-size: 20px;
+    line-height: 0.7;
+}
+
+.bodyText {
+    font-size: 20px;
+    text-align: start;
+}
+
+.image {
+    grid-area: image;
+    margin: 160px 50px auto auto;
+}
+.question {
+    grid-area: question;
+    margin: auto;
+    background-color: #0690EB;
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 10px;
+}
+.quizHeader {
+    font-size: 60px;
+    margin: 50px auto 0px;
+    grid-area: quizHeader;
+    padding: 5px;
+    border-top: 0px;
+    height: 75px;
+    background-color: #0690EB;
+}
+.quizQuestion {
+    font-size: 30px;
+    margin-top: auto;
+    background-color: #0690EB;
+}
+.button {
+    width: 500px;
+    font-size: 30px;
+    margin-top: 10px;
+    grid-area: button;
+    padding: 5px 10px;
+    word-spacing: 50px;
+    background-color: #0690EB;
+}
+.answers {
+    grid-area: answers;
+    margin: auto;
+    background-color: #0690EB;
+    padding: 30px;
+    border-radius: 10px;
+}
+.answersHeader {
+    font-size: 60px;
+}
+.answersList {
+    font-size: 30px;
+}
+.faq {
+    grid-area: faq;
+    margin: auto;
+    background-color: #0690EB;
+    padding: 30px;
+    border-radius: 10px;
+}
+.q {
+    font-size: 30px;
+}
+.footer {
+    grid-area: footer;
+    background-color: #0690EB;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+.reflection {
+    grid-area: reflection;
+    margin: auto;
+    text-align: start;
+    background-color: #0690EB;
+    padding: 10px;
+    width: 700px;
+}
